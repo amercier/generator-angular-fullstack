@@ -1,4 +1,4 @@
-<% if (filters.bootstrap) { %>$icon-font-path: "../bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/";
+<% if (filters.bootstrap) { %>$icon-font-path: "../bower_components/bootstrap/fonts/";
 @import '../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap';
 <% if(filters.oauth) { %>@import '../bower_components/bootstrap-social/bootstrap-social.scss';
 <% }} %>$fa-font-path: "../bower_components/font-awesome/fonts";
